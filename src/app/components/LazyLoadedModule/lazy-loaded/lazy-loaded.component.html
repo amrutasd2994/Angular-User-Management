@@ -1,0 +1,13 @@
+<div class="container" style="margin-top: 70px;">
+<div class="row">
+    <div class="col-md-4" *ngFor="let emp of empData">
+        <div class="card cursor-click" style="width: 14rem; margin: 10px" (click)="goToUserDetails(emp)">
+            <img class="card-img-top" src="../../../assets/images/img_avatar.png" height="100" width="30" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Name: {{emp.employee_name}}</p>
+              <p class="card-text">Employee ID: {{emp.id}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

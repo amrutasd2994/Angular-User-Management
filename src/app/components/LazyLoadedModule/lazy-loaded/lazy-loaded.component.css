@@ -1,0 +1,7 @@
+.cursor-click { 
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: #9f9f9f 5px 5px 5px;
+}
